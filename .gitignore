@@ -1,0 +1,9 @@
+venv
+.env
+test.py
+temp_response.json
+TODO.md
+record/
+output/
+identity/
+temp.txt
