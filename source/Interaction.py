@@ -1,11 +1,10 @@
 import json
 import requests
-from config import config
+from config import api_keys
 from source.Colors import Colors
 
 
-api_key = config['api_key']['deepseek']
-
+api_key = api_keys['deepseek']
 
 def _ignore_chunk(chunk: str):
   return

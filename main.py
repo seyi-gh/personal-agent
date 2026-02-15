@@ -1,4 +1,4 @@
-from config import config
+from config import api_keys
 from datetime import datetime
 from source.util import json_load, open_read
 from source.Interaction import Interaction, Addon, GroupAddons
